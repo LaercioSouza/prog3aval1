@@ -1,0 +1,149 @@
+
+
+.corpo{
+	background-color: floralwhite;
+}
+
+.cabecalho{
+	padding: 40px;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	column-gap: 2px;
+	justify-items: center;
+}
+
+.text{
+	font-family: verdana, arial;
+}
+
+.home{
+	grid-column: 1;
+}
+
+.gift{
+	grid-column: 2;
+}
+
+.contact{
+	grid-column: 3;
+}
+
+.menu{
+
+	grid-column: 4;
+}
+
+.face{
+	grid-column: 5;
+}
+
+.zap{
+	grid-column: 6;
+}
+
+.insta{
+	grid-column: 7;
+}
+
+.logo{
+	display: grid;
+	padding: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 100px);
+}
+
+.logocentral{
+	background-image: url("./Img/pageone/logo.jpg");
+	grid-row: 1/6;
+	grid-column: 1/5;
+}
+
+p{
+
+	font-family: verdana;
+	font-size: 20px;
+	color: orangered;
+
+}
+
+.rodape{
+	padding: 20px;
+	margin-top: 70px;
+	margin-left: 50px;
+	display: grid;
+	grid-template-rows: repeat(2, 300px);
+	grid-template-columns: repeat(3, 400px);
+}
+
+.lay{
+
+	background-image: url("./Img/pageone/lasanha.jpg");
+	grid-column: 1;
+	grid-row: 1;
+}
+.frango{
+	background-image: url("./Img/pageone/frago.jpg");
+	grid-column: 2;
+	grid-row: 1;
+
+}
+
+.picanha{
+	background-image: url("./Img/pageone/picanha.jpg");
+	grid-column: 3;
+	grid-row: 1;
+
+}
+
+.mineira{
+    background-image: url("./Img/pageone/mineira.jpg");
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.cafe{
+	background-image: url("./Img/pageone/cafe.jpg");
+	grid-column: 2;
+	grid-row: 2;
+
+}
+
+.coffe{
+	background-image: url("./Img/pageone/coffe.jpg");
+	grid-column: 3;
+	grid-row: 2;
+}
+
+.low{
+
+	margin-top: 40px;
+}
+
+.fundo{
+	justify-items: center;
+	display: grid;
+	margin-top: 30px;
+	margin-left: 120px;
+	grid-template-columns: repeat(5, 200px);
+	grid-template-rows: repeat(1, 30px);
+
+}
+
+.blog{
+	grid-column: 2;
+}
+
+.times{
+	grid-column: 3;
+}
+
+.now{
+	grid-column: 4;
+}
+
+.toronto{
+	grid-column: 5;
+}
+
+
